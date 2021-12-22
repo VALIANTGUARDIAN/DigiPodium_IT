@@ -13,7 +13,9 @@ import{ MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { LayoutComponent } from './layout/layout.component';
+import { MatListModule } from '@angular/material/list';
+import { SidenavComponent } from './sidenav/sidenav.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,7 @@ import { LayoutComponent } from './layout/layout.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    LayoutComponent
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { LayoutComponent } from './layout/layout.component';
     MatSidenavModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
