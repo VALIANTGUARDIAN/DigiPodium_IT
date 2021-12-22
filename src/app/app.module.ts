@@ -13,13 +13,15 @@ import{ MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
