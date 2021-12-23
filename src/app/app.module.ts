@@ -27,6 +27,12 @@ import { NbThemeModule,
   NbIconModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { LayoutComponent } from './layout/layout.component';
+import { JavaComponent } from './it/java/java.component';
+import { PythonComponent } from './it/python/python.component';
+import { AndroidComponent } from './it/android/android.component';
+import { IotComponent } from './it/iot/iot.component';
+import { AngularComponent } from './it/angular/angular.component';
+import { ReactComponent } from './it/react/react.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,14 @@ import { LayoutComponent } from './layout/layout.component';
     HomeComponent,
     FooterComponent,
     ITServicesComponent,
-    LayoutComponent
+    LayoutComponent,
+    JavaComponent,
+    PythonComponent,
+    AndroidComponent,
+    IotComponent,
+    AngularComponent,
+    ReactComponent,
+
   ],
   imports: [
     BrowserModule,
