@@ -13,16 +13,29 @@ import{ MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { LayoutModule } from '@angular/cdk/layout';
-
+import { ITServicesComponent } from './it-services/it-services.component';
+import { NbThemeModule,
+  NbLayoutModule,
+  NbSidebarModule,
+  NbMenuModule,
+  NbToastrModule,
+  NbDialogModule,
+  NbCardModule,
+  NbIconModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ITServicesComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +48,17 @@ import { LayoutModule } from '@angular/cdk/layout';
     MatIconModule,
     MatButtonModule,
     MatListModule,
-    LayoutModule
+    LayoutModule,
+    NbThemeModule.forRoot({ name: 'dark' }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+    NbSidebarModule,
+    NbMenuModule,
+    NbToastrModule,
+    NbDialogModule,
+    NbCardModule,
+    NbIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
