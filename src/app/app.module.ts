@@ -14,7 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
-import { SidenavComponent } from './sidenav/sidenav.component';
+import { LayoutModule } from '@angular/cdk/layout';
 
 
 @NgModule({
@@ -22,8 +22,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent,
-    SidenavComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +34,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatListModule
+    MatListModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

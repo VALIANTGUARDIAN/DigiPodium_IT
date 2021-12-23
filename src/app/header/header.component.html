@@ -1,21 +1,23 @@
-<mat-toolbar color="dark">
-  <div fxHide.gt-xs>
-    <button mat-icon-button (click)="onToggleSidenav">
-      <mat-icon>menu</mat-icon>
-    </button>
+<div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      DigiPodium
+    </div>
   </div>
-  <div>
-    <a routerLink="/home">Digipodium</a>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
   </div>
-  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
-    <ul fxLayout fxLayoutGap="15px" class="navigator-items">
-      <li>
-        <a routerLink="">Services</a>
-      </li>
-      <li>
-        <a routerLink="">Contact Us</a>
-      </li>
-    </ul>
 
+  <div class="nav-links">
+    <a href="" >IT Trainig</a>
+    <a href="">Digital Marketing</a>
+    <a href="">Event Management</a>
+    <a href="">Contact Us</a>
+    <a href="">Careers</a>
   </div>
-</mat-toolbar>
+</div>
