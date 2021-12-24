@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { ItServiceComponent } from './it-service/it-service.component';
 import { AndroidComponent } from './it/android/android.component';
 import { AngularComponent } from './it/angular/angular.component';
 import { IotComponent } from './it/iot/iot.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'iot', component:IotComponent },
   {path:'java', component:JavaComponent },
   {path:'python', component:PythonComponent },
-  {path:'react', component:ReactComponent }
+  {path:'react', component:ReactComponent },
+  {path:'it-service', component:ItServiceComponent}
 
 ];
 

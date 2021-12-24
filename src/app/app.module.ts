@@ -32,6 +32,7 @@ import { AndroidComponent } from './it/android/android.component';
 import { IotComponent } from './it/iot/iot.component';
 import { AngularComponent } from './it/angular/angular.component';
 import { ReactComponent } from './it/react/react.component';
+import { ItServiceComponent } from './it-service/it-service.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { ReactComponent } from './it/react/react.component';
     IotComponent,
     AngularComponent,
     ReactComponent,
+    ItServiceComponent,
 
   ],
   imports: [

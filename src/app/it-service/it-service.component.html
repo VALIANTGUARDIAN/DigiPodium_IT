@@ -1,47 +1,4 @@
 <div class="card">
-  <div class="container" style="
-  position: relative;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 60vh;;
-  animation: animate 30s ease-in-out infinite;
-  background-size:cover;
-
-@keyframes animate{
-  0%, 100% {
-    background-image: url('../images/digi.jpg');
-  }
-  20% {
-    background-image: url('../images/kotnil.jpg');
-  }
-  30% {
-    background-image: url('../images/android_2.jpg');
-  }
-  40% {
-    background-image: url('../images/angular.jpg');
-  }
-  50% {
-    background-image: url('../images/java.jpg');
-  }
-  65% {
-    background-image: url('../images/python.jpg');
-  }
-  85% {
-    background-image: url('../images/react.jpg');
-  }
-}">
-    <div class="outer">
-      <div class="details">
-        <h2>Welcome to <span style="color: black;">DIGI</span> <span style="color: #a00d08;">PODIUM</span></h2>
-      </div>
-    </div>
-  </div>
-</div>
-
-<br>
-
-<div class="card">
   <div class="row">
     <div class="col-md-4 mt-5">
       <div class="card" [routerLink]="['/android']" routerLinkActive="router-link-active">
@@ -91,30 +48,5 @@
         </div>
       </div>
     </div>
-  </div>
-  <br>
-  <button class="btn btn-danger" [routerLink]="['/it-service']" routerLinkActive="router-link-active">
-    View More</button>
-</div>
-
-<br>
-
-<div class="card" style="height: 50vh;">
-  <div class="card-header"  style="color: black; text-transform: uppercase;"><b>Winter Training Program</b></div>
-  <div class="card-body">
-    <p style="color: black;"> <i class="fas fa-pencil"></i> For All students undergoing B.Tech /M.Tech/ B.E / MCA/ M.Sc.
-       IT/ B.Sc.IT/ BCA / B-VOC/ PGDCA and any other 1 year diploma in computers/ professionals etc.</p>
-    <p style="color: black;"> <i class="fas fa-pencil"></i> Professionals & Computer Trainers, who are interested in
-      upgrading their skills in a fast track program.</p>
-      <br><br>
-      <p style="color: black;">The training is conducted in the months of Dec & Jan every year.
-        We start admissions for the winter training program from the month
-        of October every year. Depending upon the college schedule students either
-        get a break of 15 days of 30 days.We have designed special fast track courses for
-        the same where we complete the training program during above mentioned duration.
-        We conduct separate batches for students as well as professionals both.</p>
-        <br>
-        <button type="button" class="btn btn-dark px-3" [routerLink]="['/it-service']"
-        routerLinkActive="router-link-active" style="margin-left: 33rem;">Coures</button>
   </div>
 </div>
