@@ -16,7 +16,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { LayoutModule } from '@angular/cdk/layout';
-import { ITServicesComponent } from './it-services/it-services.component';
 import { NbThemeModule,
   NbLayoutModule,
   NbSidebarModule,
@@ -40,7 +39,6 @@ import { ReactComponent } from './it/react/react.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    ITServicesComponent,
     LayoutComponent,
     JavaComponent,
     PythonComponent,

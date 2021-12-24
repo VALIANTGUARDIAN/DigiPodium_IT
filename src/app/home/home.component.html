@@ -47,26 +47,11 @@
         <div class="col-md-4 mt-5">
           <div class="card">
             <div class="card-body">
-              <div>
-                <img class="avatar">
-                <br><br><br>
-                <B> </B>
-              </div>
-
-              <h4 class="nt">hbh</h4>
-              <p class="text-muted"> ...</p>
-            </div>
-            <div class="d-grid gap-2 d-md-flex">
-              <button type="button" class="btn btn-warning px-3"><i class="fas fa-regular fa-expand"
-                  aria-hidden="true"></i></button>
-              <button type="button" class="btn btn-warning px-3"><i class="fas fa-paper-plane"
-                  aria-hidden="true"></i></button>
+              <button type="button" class="btn btn-warning px-3" [routerLink]="['/android']" routerLinkActive="router-link-active"><i class="fab fa-android"
+                  aria-hidden="true"  ></i></button>
             </div>
           </div>
         </div>
       </div>
-      <br>
-      <button class="btn btn-danger" [routerLink]="['/app/listrequest']" routerLinkActive="router-link-active">
-        View More</button>
     </div>
 

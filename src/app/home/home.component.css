@@ -22,13 +22,6 @@
   padding: 1.5rem;
 }
 
-.price {
-  position: absolute;
-  bottom: 2.5rem;
-  right: 1.5rem;
-  color: rgb(34, 33, 33);
-}
-
 
 
 
@@ -44,17 +37,7 @@
   color: rgb(99, 100, 102);
 }
 
-.nt{
-  font-size: 20px;
-}
 
-.text-muted{
-  position: absolute;
-}
-
-.mat-slider{
-  width: 202px;
-}
 
 body{
   margin: 0;
