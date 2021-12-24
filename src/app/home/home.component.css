@@ -55,3 +55,33 @@
 .mat-slider{
   width: 202px;
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.contaner{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height:100vh;
+  animation: animate 16s ease-in-out infinite;
+}
+
+@keyframes animate{
+  0%, 100% {
+    background-image: url('../images/digi.jpg');
+  }
+  25% {
+    background-image: url('../images/andy.jpg');
+  }
+  50% {
+    background-image: url('../images/digi.jpg');
+  }
+  75% {
+    background-image: url('../images/andy.jpg');
+  }
+}

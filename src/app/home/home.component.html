@@ -1,35 +1,38 @@
-<section id="hero">
-  <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div class="card">
+  <div class="container" style="
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 60vh;;
+  animation: animate 30s ease-in-out infinite;
+  background-size:cover;
 
-    <div class="carousel-inner" role="listbox">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item active" style="background-image: url(assets/img/dig.jpg);">
-        <div class="carousel-container">
-          <div class="carousel-content animate__animated animate__fadeInUp">
-            <h2>Welcome to BOOK<span style="color: #1bbd36;">WORMS</span></h2>
-            <p>BookWorms is like a trade window of novels especially for Bibliophile.
-              Some of the novels are now very rare and are neither being published nor available in shops or at any
-              website.
-              On this site People can post their novels collection on our website, so that people who need those novels,
-              can get it from our website.
-            </p>
-
-            <!-- <div class="text-center"><a href="" class="btn-get-started">Read More</a></div> -->
-          </div>
-        </div>
-      </div>
+@keyframes animate{
+  0%, 100% {
+    background-image: url('../images/digi.jpg');
+  }
+  25% {
+    background-image: url('../images/andy.jpg');
+  }
+  50% {
+    background-image: url('../images/digi.jpg');
+  }
+  75% {
+    background-image: url('../images/andy.jpg');
+  }
+}">
+  <div class="outer">
+    <div class="details">
+      <h2>Welcome to DIGI<span style="color: #a00d08;">PODIUM</span></h2>
     </div>
   </div>
-</section>
-
-<main id="main">
-
+</div>
+</div>
 
 
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services section-bg">
-    <div class="container" data-aos="fade-up">
+
+  <div class="card" >
 
       <div class="row">
         <div class="col-md-4 mt-5">
@@ -57,6 +60,4 @@
       <button class="btn btn-danger" [routerLink]="['/app/listrequest']" routerLinkActive="router-link-active">
         View More</button>
     </div>
-  </section>
 
-</main>
