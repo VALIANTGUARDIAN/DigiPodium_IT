@@ -41,3 +41,9 @@ nb-card-header{
 .mat-slider{
   width: 202px;
 }
+#mern{
+  background-image: url('../images/mern.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
