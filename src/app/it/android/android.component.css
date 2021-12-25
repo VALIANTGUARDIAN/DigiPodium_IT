@@ -41,3 +41,17 @@ nb-card-header{
 .mat-slider{
   width: 202px;
 }
+
+#android1{
+  background-image: url('../images/android.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#kotnil{
+  background-image: url('../images/kotnil.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -41,3 +41,16 @@ nb-card-header{
 .mat-slider{
   width: 202px;
 }
+
+#data{
+    background-image: url('../images/data.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#django{
+  background-image: url('../images/django.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

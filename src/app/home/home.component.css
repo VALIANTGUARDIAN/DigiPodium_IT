@@ -53,9 +53,47 @@ body{
 
 #android{
   background-image: url('../images/android_2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
+#java{
+  background-image: url('../images/java.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+#python{
+  background-image: url('../images/python.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#angular{
+  background-image: url('../images/angular.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#react{
+  background-image: url('../images/react.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#iot{
+  background-image: url('../images/iot.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .contaner{
   position: absolute;
