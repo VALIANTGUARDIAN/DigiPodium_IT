@@ -45,6 +45,18 @@ body{
   font-family: monospace;
 }
 
+#final{
+  height: 2.2rem;
+  background-color: rgb(184, 252, 252);
+  text-align: center;
+}
+
+#android{
+  background-image: url('../images/android_2.jpg');
+
+}
+
+
 .contaner{
   position: absolute;
   left: 0;
