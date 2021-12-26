@@ -22,10 +22,7 @@
   padding: 1.5rem;
 }
 
-
-
-
-#cardheader{
+#cardheader {
   display: inline-block;
   text-align: center;
   text-transform: uppercase;
@@ -37,93 +34,112 @@
   color: rgb(99, 100, 102);
 }
 
-
-
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: monospace;
 }
 
-#final{
+#final {
   height: 2.2rem;
   background-color: rgb(184, 252, 252);
   text-align: center;
 }
 
-#android{
-  background-image: url('../images/android_2.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-
-#java{
-  background-image: url('../images/java.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  background-position: center;
-}
-
-#python{
-  background-image: url('../images/python.jpg');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#angular{
-  background-image: url('../images/angular.jpg');
+#android {
+  background-image: url("../images/android_2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-#react{
-  background-image: url('../images/react.jpg');
+#java {
+  background-image: url("../images/java.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+#python {
+  background-image: url("../images/python.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#angular {
+  background-image: url("../images/angular.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-#iot{
-  background-image: url('../images/iot.jpg');
+#react {
+  background-image: url("../images/react.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.contaner{
+#iot {
+  background-image: url("../images/iot.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contaner {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  height:100vh;
+  height: 100vh;
   animation: animate 30s ease-in-out infinite;
 }
 
-@keyframes animate{
-  0%, 100% {
-    background-image: url('../images/digi.jpg');
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url("../images/digi.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   20% {
-    background-image: url('../images/kotnil_2.jpg');
+    background-image: url("../images/kotnil_2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   30% {
-    background-image: url('../images/android_2.jpg');
+    background-image: url("../images/android_2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   40% {
-    background-image: url('../images/angular.jpg');
+    background-image: url("../images/angular.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   50% {
-    background-image: url('../images/java.jpg');
+    background-image: url("../images/java.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   65% {
-    background-image: url('../images/python.jpg');
+    background-image: url("../images/python.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   85% {
-    background-image: url('../images/react.jpg');
+    background-image: url("../images/react.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
