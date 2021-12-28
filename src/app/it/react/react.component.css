@@ -10,6 +10,7 @@
   font-size: 14px;
   display: block;
   height: min-content;
+  text-align: center;
   }
 
 .card-body:hover {

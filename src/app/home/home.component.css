@@ -136,19 +136,19 @@ body {
     background-position: center;
   }
   20% {
-    background-image: url("../images/data_analysis.jpg");
+    background-image: url("../images/job_assist.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   30% {
-    background-image: url("../images/dsl.jpg");
+    background-image: url("../images/git_kit.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   40% {
-    background-image: url("../images/git_kit.jpg");
+    background-image: url("../images/DSL1946.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -159,8 +159,14 @@ body {
     background-repeat: no-repeat;
     background-position: center;
   }
-  65% {
-    background-image: url("../images/job_assist.jpg");
+  60% {
+    background-image: url("../images/data_analysis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  70% {
+    background-image: url("../images/dsl.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
