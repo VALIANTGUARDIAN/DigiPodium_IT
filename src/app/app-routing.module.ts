@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AnimationComponent } from './animation/animation.component';
 import { HomeComponent } from './home/home.component';
 import { ItServiceComponent } from './it-service/it-service.component';
 import { AndroidComponent } from './it/android/android.component';
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'java', component:JavaComponent },
   {path:'python', component:PythonComponent },
   {path:'react', component:ReactComponent },
-  {path:'it-service', component:ItServiceComponent}
+  {path:'it-service', component:ItServiceComponent},
+  {path:'animation', component:AnimationComponent}
 
 ];
 
