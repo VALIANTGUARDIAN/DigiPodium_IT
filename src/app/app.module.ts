@@ -33,6 +33,7 @@ import { IotComponent } from './it/iot/iot.component';
 import { AngularComponent } from './it/angular/angular.component';
 import { ReactComponent } from './it/react/react.component';
 import { ItServiceComponent } from './it-service/it-service.component';
+import { AnimationComponent } from './animation/animation.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { ItServiceComponent } from './it-service/it-service.component';
     AngularComponent,
     ReactComponent,
     ItServiceComponent,
+    AnimationComponent,
 
   ],
   imports: [
